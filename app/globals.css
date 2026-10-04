@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Zarkode brand — dark-first "Structured Technology" identity */
+    --background: 213 60% 5%; /* #050B14 primary background */
+    --foreground: 210 40% 98%; /* near-white headline text */
+
+    --card: 216 49% 10%; /* #0D1726 elevated surface */
+    --card-foreground: 210 40% 98%;
+
+    --popover: 216 59% 8%; /* #08111F secondary background */
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 156 100% 50%; /* #00FF9C brand accent */
+    --primary-foreground: 213 60% 5%; /* dark text on accent */
+
+    --secondary: 216 49% 10%; /* #0D1726 */
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 216 49% 10%;
+    --muted-foreground: 215 20% 65%; /* #94A3B8 muted text */
+
+    --accent: 216 49% 14%; /* slightly lighter elevated surface */
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 216 35% 16%; /* subtle border on dark surfaces */
+    --input: 216 35% 16%;
+    --ring: 156 100% 50%; /* focus ring uses brand accent */
+
+    --chart-1: 156 100% 50%;
+    --chart-2: 210 80% 60%;
+    --chart-3: 200 70% 50%;
+    --chart-4: 180 60% 45%;
+    --chart-5: 140 55% 45%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .hero-grid-pattern {
+    background-image:
+      linear-gradient(to right, hsl(var(--border) / 0.5) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(var(--border) / 0.5) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  @keyframes hero-pulse {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+  }
+
+  .hero-pulse {
+    animation: hero-pulse 3s ease-in-out infinite;
+  }
+
+  @keyframes hero-data-flow {
+    0% { stroke-dashoffset: 200; opacity: 0; }
+    10% { opacity: 0.6; }
+    90% { opacity: 0.6; }
+    100% { stroke-dashoffset: 0; opacity: 0; }
+  }
+
+  .hero-data-flow {
+    animation: hero-data-flow 4s ease-in-out infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-pulse,
+    .hero-data-flow {
+      animation: none;
+    }
+  }
+}
