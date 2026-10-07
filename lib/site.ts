@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: 'We Build Digital Solutions That Move Businesses Forward.',
   description:
     'Zarkode Digital Solutions Ltd. is a Nigerian technology company that helps businesses solve problems and move forward through digital products, platforms and technology solutions.',
-  url: 'https://zarkode.com',
+  url: 'https://zarkode.com.ng',
   locale: 'en_NG',
   rcNumber: '9067293',
   contact: {
