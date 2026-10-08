@@ -8,16 +8,16 @@ import { projects } from '@/data/projects';
 import { pageImages } from '@/data/images';
 
 export const metadata: Metadata = {
-  title: 'Selected Work | Zarkode Digital Solutions',
+  title: 'Web Development Projects & Portfolio in Nigeria',
   description:
-    'Selected examples of digital work delivered for businesses we support. Every business has different digital needs — here are examples of work we have delivered.',
+    'Explore selected web development and digital projects delivered by Zarkode Digital Solutions Ltd. for businesses and organizations in Nigeria.',
   alternates: {
     canonical: '/projects',
   },
   openGraph: {
-    title: 'Selected Work | Zarkode Digital Solutions',
+    title: 'Web Development Projects & Portfolio in Nigeria | Zarkode',
     description:
-      'Selected examples of digital work delivered for businesses we support. Every business has different digital needs — here are examples of work we have delivered.',
+      'Explore selected web development and digital projects delivered by Zarkode Digital Solutions Ltd. for businesses and organizations in Nigeria.',
   },
 };
 
