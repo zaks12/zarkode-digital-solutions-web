@@ -9,16 +9,16 @@ import { insights, insightCategories } from '@/data/insights';
 import { pageImages } from '@/data/images';
 
 export const metadata: Metadata = {
-  title: 'Insights | Zarkode Digital Solutions',
+  title: 'Technology & Business Insights',
   description:
-    'Articles, perspectives, and technical writing from the Zarkode team on digital products, technology, and solving real business needs.',
+    'Read insights from Zarkode Digital Solutions Ltd. on web development, digital products, technology, branding, and practical solutions for businesses in Nigeria.',
   alternates: {
     canonical: '/insights',
   },
   openGraph: {
-    title: 'Insights | Zarkode Digital Solutions',
+    title: 'Technology & Business Insights | Zarkode',
     description:
-      'Articles, perspectives, and technical writing from the Zarkode team on digital products, technology, and solving real business needs.',
+      'Read insights from Zarkode Digital Solutions Ltd. on web development, digital products, technology, branding, and practical solutions for businesses in Nigeria.',
   },
 };
 
