@@ -9,18 +9,18 @@ import { WhyZarkode } from '@/components/home/WhyZarkode';
 import { Process } from '@/components/home/Process';
 import { InsightsPreview } from '@/components/home/InsightsPreview';
 import { FinalCTA } from '@/components/home/FinalCTA';
-
 export const metadata: Metadata = {
-  title: 'Zarkode Digital Solutions | Digital Solutions for Modern Businesses',
+  title: 'Zarkode Digital Solutions | Web Development & IT Solutions in Nigeria',
   description:
-    'Zarkode Digital Solutions Ltd is a Nigerian technology company helping businesses build digital products, strengthen their digital presence, and solve real business needs with technology.',
+    'Zarkode Digital Solutions Ltd. is a Nigerian technology company providing web development, software, branding, hosting, IT consulting and digital solutions for businesses.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Zarkode Digital Solutions | Digital Solutions for Modern Businesses',
+    title:
+      'Zarkode Digital Solutions — We Build Digital Solutions That Move Businesses Forward.',
     description:
-      'Zarkode Digital Solutions Ltd is a Nigerian technology company helping businesses build digital products, strengthen their digital presence, and solve real business needs with technology.',
+      'Zarkode Digital Solutions Ltd. is a Nigerian technology company providing web development, software, branding, hosting, IT consulting and digital solutions for businesses.',
   },
 };
 
