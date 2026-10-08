@@ -11,16 +11,17 @@ import { pageImages } from '@/data/images';
 export const metadata: Metadata = {
   title: 'About Zarkode | Nigerian Technology & Digital Solutions Company',
   description:
-    'Learn about Zarkode Digital Solutions Ltd., a Nigerian technology company in Abuja helping businesses build digital products, strengthen their digital presence, and solve real business needs with technology.',
+    'Learn about Zarkode Digital Solutions Ltd., a Nigerian technology company based in Abuja helping businesses build digital products, strengthen their digital presence, and solve real business needs with technology.',
   alternates: {
     canonical: '/about',
   },
   openGraph: {
     title: 'About Zarkode | Nigerian Technology & Digital Solutions Company',
     description:
-      'Learn about Zarkode Digital Solutions Ltd., a Nigerian technology company in Abuja helping businesses build digital products, strengthen their digital presence, and solve real business needs with technology.',
+      'Learn about Zarkode Digital Solutions Ltd., a Nigerian technology company based in Abuja helping businesses build digital products, strengthen their digital presence, and solve real business needs with technology.',
   },
 };
+
 export default function AboutPage() {
   return (
     <>
@@ -31,9 +32,10 @@ export default function AboutPage() {
             Technology Built Around Real Business Needs.
           </h1>
           <p className="mt-4 max-w-2xl text-base text-muted-foreground md:text-lg">
-            Zarkode Digital Solutions is a technology company helping businesses
-            build stronger digital presence, practical digital products, and
-            technology solutions designed around the way they work.
+            Zarkode Digital Solutions is a Nigerian technology company based
+            in Abuja, helping businesses build stronger digital presence,
+            practical digital products, and technology solutions designed
+            around the way they work.
           </p>
         </div>
       </div>
@@ -52,25 +54,30 @@ export default function AboutPage() {
                 className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/30 to-transparent"
               />
             </div>
+
             <div>
               <h2 className="font-heading text-2xl font-bold tracking-tight text-foreground md:text-3xl">
                 Building Technology With Purpose
               </h2>
+
               <div className="mt-4 space-y-4 text-lg leading-relaxed text-muted-foreground">
                 <p>
                   Zarkode Digital Solutions Ltd is an Abuja-based technology
-                  company focused on helping businesses use digital technology
-                  more effectively.
+                  company in Nigeria focused on web development, software,
+                  digital products, and helping businesses use technology more
+                  effectively.
                 </p>
+
                 <p>
-                  We work across digital development, digital growth, technology
-                  infrastructure, and brand and experience — bringing these
-                  capabilities together when a business needs more than a single
-                  digital service.
+                  We work across digital development, digital growth,
+                  technology infrastructure, and brand and experience —
+                  bringing these capabilities together when a business needs
+                  more than a single digital service.
                 </p>
+
                 <p>
-                  Our approach starts with understanding the business need, then
-                  shaping the right digital solution around it.
+                  Our approach starts with understanding the business need,
+                  then shaping the right digital solution around it.
                 </p>
               </div>
             </div>
@@ -88,13 +95,15 @@ export default function AboutPage() {
             <h2 className="font-heading text-2xl font-bold tracking-tight text-foreground md:text-3xl">
               Built for What Comes Next.
             </h2>
+
             <div className="mt-4 space-y-4 text-lg leading-relaxed text-muted-foreground">
               <p>
-                Zarkode is building toward a broader technology practice — from
-                digital products and custom software to automation, AI, SaaS,
-                cloud technologies, business platforms, and digital
+                Zarkode is building toward a broader technology practice —
+                from digital products and custom software to automation, AI,
+                SaaS, cloud technologies, business platforms, and digital
                 transformation.
               </p>
+
               <p>
                 The goal is not to chase every new technology. It is to
                 understand where technology can create meaningful value for
