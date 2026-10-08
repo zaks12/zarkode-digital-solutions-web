@@ -10,16 +10,16 @@ import { pageImages } from '@/data/images';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Contact Zarkode Digital Solutions | Start a Project',
+  title: 'Contact Zarkode | Web Development & IT Solutions in Nigeria',
   description:
-    'Start a project with Zarkode Digital Solutions. Tell us about your business, digital product, website, software, growth, or technology needs.',
+    'Contact Zarkode Digital Solutions Ltd. to discuss web development, software, branding, hosting, IT consulting, digital marketing, or other technology needs in Nigeria.',
   alternates: {
     canonical: '/contact',
   },
   openGraph: {
-    title: 'Contact Zarkode Digital Solutions | Start a Project',
+    title: 'Contact Zarkode | Web Development & IT Solutions in Nigeria',
     description:
-      'Start a project with Zarkode Digital Solutions. Tell us about your business, digital product, website, software, growth, or technology needs.',
+      'Contact Zarkode Digital Solutions Ltd. to discuss web development, software, branding, hosting, IT consulting, digital marketing, or other technology needs in Nigeria.',
   },
 };
 
