@@ -9,19 +9,18 @@ import { AboutCTA } from '@/components/about/AboutCTA';
 import { pageImages } from '@/data/images';
 
 export const metadata: Metadata = {
-  title: 'About Zarkode Digital Solutions | Technology & Digital Solutions',
+  title: 'About Zarkode | Nigerian Technology & Digital Solutions Company',
   description:
-    'Learn about Zarkode Digital Solutions, an Abuja-based technology company helping businesses build digital products, strengthen their digital presence, and solve real business needs with technology.',
+    'Learn about Zarkode Digital Solutions Ltd., a Nigerian technology company in Abuja helping businesses build digital products, strengthen their digital presence, and solve real business needs with technology.',
   alternates: {
     canonical: '/about',
   },
   openGraph: {
-    title: 'About Zarkode Digital Solutions | Technology & Digital Solutions',
+    title: 'About Zarkode | Nigerian Technology & Digital Solutions Company',
     description:
-      'Learn about Zarkode Digital Solutions, an Abuja-based technology company helping businesses build digital products, strengthen their digital presence, and solve real business needs with technology.',
+      'Learn about Zarkode Digital Solutions Ltd., a Nigerian technology company in Abuja helping businesses build digital products, strengthen their digital presence, and solve real business needs with technology.',
   },
 };
-
 export default function AboutPage() {
   return (
     <>
