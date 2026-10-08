@@ -9,19 +9,18 @@ import { SolutionsCTA } from '@/components/solutions/SolutionsCTA';
 import { pageImages } from '@/data/images';
 
 export const metadata: Metadata = {
-  title: 'Digital Solutions for Businesses | Zarkode Digital Solutions',
+  title: 'Digital Solutions for Businesses in Nigeria',
   description:
-    'We help businesses use digital technology to establish their presence, sell online, improve how they work, and build solutions around specific needs.',
+    'Zarkode Digital Solutions Ltd. helps businesses in Nigeria build digital products, sell online, improve operations, and solve specific business needs with technology.',
   alternates: {
     canonical: '/solutions',
   },
   openGraph: {
-    title: 'Digital Solutions for Businesses | Zarkode Digital Solutions',
+    title: 'Digital Solutions for Businesses in Nigeria | Zarkode',
     description:
-      'We help businesses use digital technology to establish their presence, sell online, improve how they work, and build solutions around specific needs.',
+      'Zarkode Digital Solutions Ltd. helps businesses in Nigeria build digital products, sell online, improve operations, and solve specific business needs with technology.',
   },
 };
-
 export default function SolutionsPage() {
   return (
     <>
