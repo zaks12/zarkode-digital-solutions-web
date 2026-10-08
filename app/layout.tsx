@@ -26,13 +26,16 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.shortName} — ${siteConfig.tagline}`,
-    template: `%s — ${siteConfig.shortName}`,
+    default: 'Zarkode Digital Solutions | Web Development & IT Solutions in Nigeria',
+    template: `%s | ${siteConfig.shortName}`,
   },
-  description: siteConfig.description,
+  description:
+    'Zarkode Digital Solutions Ltd. is a Nigerian technology company providing web development, software, branding, hosting, IT consulting and digital solutions for businesses.',
   openGraph: {
-    title: `${siteConfig.shortName} — ${siteConfig.tagline}`,
-    description: siteConfig.description,
+    title:
+      'Zarkode Digital Solutions — We Build Digital Solutions That Move Businesses Forward.',
+    description:
+      'Zarkode Digital Solutions Ltd. is a Nigerian technology company providing web development, software, branding, hosting, IT consulting and digital solutions for businesses.',
     url: siteConfig.url,
     siteName: siteConfig.name,
     locale: 'en_NG',
@@ -48,8 +51,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${siteConfig.shortName} — ${siteConfig.tagline}`,
-    description: siteConfig.description,
+    title:
+      'Zarkode Digital Solutions — We Build Digital Solutions That Move Businesses Forward.',
+    description:
+      'Zarkode Digital Solutions Ltd. is a Nigerian technology company providing web development, software, branding, hosting, IT consulting and digital solutions for businesses.',
   },
   robots: {
     index: true,
