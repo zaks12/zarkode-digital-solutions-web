@@ -9,19 +9,18 @@ import { ServicesCTA } from '@/components/services/ServicesCTA';
 import { pageImages } from '@/data/images';
 
 export const metadata: Metadata = {
-  title: 'Digital Services | Zarkode Digital Solutions',
+  title: 'Web Development & IT Services in Nigeria',
   description:
-    'Zarkode provides digital development, growth, infrastructure, and brand services designed around the practical needs of modern businesses.',
+    'Explore web development, software, branding, hosting, IT consulting, and digital marketing services from Zarkode Digital Solutions Ltd. in Nigeria.',
   alternates: {
     canonical: '/services',
   },
   openGraph: {
-    title: 'Digital Services | Zarkode Digital Solutions',
+    title: 'Web Development & IT Services in Nigeria | Zarkode',
     description:
-      'Zarkode provides digital development, growth, infrastructure, and brand services designed around the practical needs of modern businesses.',
+      'Explore web development, software, branding, hosting, IT consulting, and digital marketing services from Zarkode Digital Solutions Ltd. in Nigeria.',
   },
 };
-
 export default function ServicesPage() {
   return (
     <>
