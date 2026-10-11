@@ -1,3 +1,4 @@
+import { PricingSection } from '@/components/pricing/PricingSection';
 import type { Metadata } from 'next';
 import { Container } from '@/components/layout/Container';
 import { Section } from '@/components/layout/Section';
@@ -64,8 +65,9 @@ export default function ServicesPage() {
         </Container>
       </Section>
 
-      <ServiceCategories />
+       <ServiceCategories />
       <HowWeHelp />
+      <PricingSection />
       <ServicesCTA />
     </>
   );

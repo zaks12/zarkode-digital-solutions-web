@@ -1,3 +1,4 @@
+import { PricingSection } from '@/components/pricing/PricingSection';
 import type { Metadata } from 'next';
 import { Hero } from '@/components/home/Hero';
 import { Positioning } from '@/components/home/Positioning';
@@ -35,6 +36,7 @@ export default function HomePage() {
       <ClientsSection />
       <WhyZarkode />
       <Process />
+      <PricingSection compact />
       <InsightsPreview />
       <FinalCTA />
     </>
