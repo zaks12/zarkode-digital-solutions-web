@@ -21,10 +21,10 @@ export function Footer() {
         <div className="absolute inset-0 bg-background/50" />
       </div>
 
-      <Container className="relative py-12 md:py-16">
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+      <Container className="relative py-10 md:py-14">
+        <div className="grid grid-cols-1 items-start gap-10 sm:grid-cols-2 lg:grid-cols-[1.5fr_0.8fr_0.8fr_0.8fr] lg:gap-8">
           <div className="space-y-4">
-            <Logo />
+           <Logo size="footer" />
             <p className="max-w-xs text-sm text-muted-foreground">
               {siteConfig.description}
             </p>

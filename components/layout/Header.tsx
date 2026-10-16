@@ -9,8 +9,8 @@ import { siteConfig } from '@/lib/site';
 export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur-md">
-      <Container className="flex h-16 items-center justify-between">
-        <Logo />
+      <Container className="flex h-20 items-center justify-between">
+        <Logo size="header" />
         <MainNav />
         <div className="hidden md:block">
           <Button asChild>
