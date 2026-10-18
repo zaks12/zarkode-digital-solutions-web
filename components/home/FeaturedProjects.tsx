@@ -33,7 +33,7 @@ export function FeaturedProjects() {
               <div className="min-w-0">
                 <p className="font-mono text-xs text-primary">{project.category}</p>
                 <h3 className="mt-1 font-heading text-lg font-semibold text-foreground">
-                  {project.name}
+                  {project.name}components/clients/ClientsSection.tsx
                 </h3>
               </div>
               <ArrowUpRight className="h-5 w-5 shrink-0 text-muted-foreground transition-colors group-hover:text-primary" />
